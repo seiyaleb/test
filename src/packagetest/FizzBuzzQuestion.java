@@ -1,5 +1,7 @@
 package packagetest;
 
+import java.util.Random;
+
 public class FizzBuzzQuestion {
 
 	public static void main(String[] args) {
@@ -32,5 +34,9 @@ public class FizzBuzzQuestion {
 		System.out.println("test");
 		System.out.println("test");
 
+		//追加2
+		Random ran = new Random();
+		int ranNumber = ran.nextInt(53);
+		System.out.println(ranNumber);
 	}
 }
