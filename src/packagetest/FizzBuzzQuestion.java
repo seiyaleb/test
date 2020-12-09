@@ -59,5 +59,8 @@ public class FizzBuzzQuestion {
 		for(String st: stList) {
 			System.out.println(st);
 		}
+        
+        //追加4
+        System.out.println("clone");
 	}
 }
