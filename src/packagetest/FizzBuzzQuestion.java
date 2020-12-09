@@ -59,8 +59,13 @@ public class FizzBuzzQuestion {
 		for(String st: stList) {
 			System.out.println(st);
 		}
-        
+
         //追加4
-        System.out.println("clone");
+		String[] fortuneList = {"吉","大吉","中吉","末吉","凶"};
+
+		Random ranRan = new Random();
+		int fortuneNumber = ranRan.nextInt(fortuneList.length);
+
+		System.out.println(fortuneList[fortuneNumber]);
 	}
 }
