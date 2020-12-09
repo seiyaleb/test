@@ -62,7 +62,8 @@ public class FizzBuzzQuestion {
 
         //追加4
 		//大凶を追加
-		String[] fortuneList = {"吉","大吉","中吉","末吉","凶","大凶"};
+		//スーパー大吉を追加
+		String[] fortuneList = {"吉","大吉","中吉","末吉","凶","大凶","スーパー大吉"};
 
 		Random ranRan = new Random();
 		int fortuneNumber = ranRan.nextInt(fortuneList.length);
