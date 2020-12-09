@@ -28,5 +28,9 @@ public class FizzBuzzQuestion {
 			}
 		}
 
+		//追加1
+		System.out.println("test");
+		System.out.println("test");
+
 	}
 }
