@@ -1,6 +1,7 @@
 package packagetest;
 
 import java.util.Random;
+import java.util.ArrayList;
 
 public class FizzBuzzQuestion {
 
@@ -38,5 +39,25 @@ public class FizzBuzzQuestion {
 		Random ran = new Random();
 		int ranNumber = ran.nextInt(53);
 		System.out.println(ranNumber);
+
+		//追加3
+		ArrayList<Integer> list = new ArrayList<Integer>();
+		for(int in = 0; in < 4; in++) {
+			for(int i = 1; i <= 13; i++) {
+				list.add(i);
+			}
+		}
+		System.out.println("山札がセットされました");
+
+		for(int number : list) {
+			System.out.print(number);
+		}
+
+		System.out.println("終了！");
+
+		String[] stList = {"アメリカ","ジョージア","タイ"};
+		for(String st: stList) {
+			System.out.println(st);
+		}
 	}
 }
